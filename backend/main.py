@@ -28,7 +28,7 @@ app.add_middleware(
 )
 
 # API config
-SEGMIND_API_KEY = os.getenv("SEGMIND_API_KEY", "SG_14ad6b22f5e1342e")
+SEGMIND_API_KEY = os.getenv("SEGMIND_API_KEY", "")
 SEGMIND_API_URL = "https://api.segmind.com/v1/potraitsd1.5-txt2img"
 
 # Style prompts
